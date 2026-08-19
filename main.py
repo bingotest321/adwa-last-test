@@ -83,7 +83,7 @@ def _env_admin_ids():
     ids = [int(p.strip()) for p in raw.split(",") if p.strip().isdigit()]
     return ids or [7627811244, 1119881250, 2073850894]
 ADMIN_IDS = _env_admin_ids()
-MINI_APP_URL = os.environ.get("WEBAPP_URL", "https://sebez733-png.github.io/bingio-mini-app/")
+MINI_APP_URL = os.environ.get("WEBAPP_URL", "https://bingotest321.github.io/adwa-last-test/")
 
 ADMIN_CREDENTIALS = {
     'superadmin': {'password': os.environ.get("ADMIN_PASSWORD", "admin123"), 'role': 'super'},
