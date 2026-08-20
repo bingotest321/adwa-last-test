@@ -1,3 +1,0 @@
-# Adwa Bingo Bot — set these in your deployment environment (Render etc.):
-#   BOT_TOKEN  : your Telegram bot API token
-#   MONGO_URI  : your real MongoDB (Atlas) connection string
